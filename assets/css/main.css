@@ -16991,4 +16991,34 @@ label {
 }
 .sketch .progress__border {
   background-color: #fdad00;
+}
+
+.video-intro-popup {
+  width: 160px;
+  height: 208px;
+  background: #fff;
+  border: 0.3px solid #e0e0e0;
+  position: fixed;
+  z-index: 100;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 8px;
+  padding: 3px;
+}
+.video-intro-popup .video-intro-inner-area {
+  background: #613030;
+  height: 100%;
+  border-radius: 8px;
+}
+.video-intro-popup .video-intro-inner-area .cross-button-video {
+  background-color: #000;
+  width: 25px;
+  height: 25px;
+  border-radius: 15rem;
+  position: absolute;
+  right: -12px;
+  top: -12px;
+}
+.video-intro-popup .video-intro-inner-area .cross-button-video i {
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
